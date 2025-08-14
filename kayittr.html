@@ -80,6 +80,18 @@
           </p>
           <div class="mbr-section-btn">
             <a class="btn btn-primary display-7" href="#" id="google-signup-btn">Google ile Kayıt Ol</a>
+            <!-- Rumuz ve e-posta ile kayıt formu -->
+<form action="kayit-ol.php" method="POST" style="margin-top: 32px;">
+  <div class="mb-3">
+    <label for="nickname" class="form-label">Rumuz</label>
+    <input type="text" class="form-control" id="nickname" name="nickname" placeholder="Rumuzunuzu girin" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">E-posta</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="E-posta adresinizi girin" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+</form>
           </div>
         </div>
       </div>
